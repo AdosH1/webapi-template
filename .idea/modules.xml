@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/webapi-template.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/webapi-template.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/webapi-template.domain.main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/webapi-template.domain.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/webapi-template.persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/webapi-template.persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest/webapi-template.rest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest/webapi-template.rest.main.iml" />
+    </modules>
+  </component>
+</project>

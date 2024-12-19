@@ -1,0 +1,18 @@
+[versions]
+hikari = "5.0.1"
+kotlin = "1.9.0"
+kotlinx = "1.5.1"
+ktor = "2.3.2"
+postgres = "42.6.0"
+slf4j = "2.0.7"
+
+[libraries]
+hikari = { group = "com.zaxxer", name = "HikariCP", version.ref = "hikari" }
+postgres = { group = "org.postgresql", name = "postgresql", version.ref = "postgres" }
+contentNegotiation = { group = "io.ktor", name = "ktor-server-content-negotiation-jvm", version.ref = "ktor" }
+kotlinxSerialization = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-core", version.ref = "kotlinx" }
+ktorSerialization = { group = "io.ktor", name = "ktor-serialization-kotlinx-json-jvm", version.ref = "ktor" }
+statusPages = { group = "io.ktor", name = "ktor-server-status-pages", version.ref = "ktor" }
+ktorServer = { group = "io.ktor", name = "ktor-server-core", version.ref = "ktor" }
+nettyServer = { group = "io.ktor", name = "ktor-server-netty", version.ref = "ktor" }
+slf4j = { group = "org.slf4j", name = "slf4j-simple", version.ref = "slf4j" }
